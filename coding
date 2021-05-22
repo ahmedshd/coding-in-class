@@ -1,0 +1,21 @@
+#1. Write a Python program which accepts
+#the radius of a circle from the user and compute the area.
+from math import pi
+r = float(input("r : "))
+print(pi * r**2)
+
+#2. Write a Python program which accepts the user's first and
+#last name and print them in reverse order with a space between them.
+print("First name: ")
+firstName = input()
+print("Last name: ")
+lastName = input()
+print("Names in reverse order with space: ")
+print(lastName + " " + firstName)
+
+#3.Write a Python program to display the current date and time.
+from datetime import datetime
+dateTime = datetime.now()
+dateTime = dateTime.strftime("%Y-%m-%d %H:%M:%S")
+print("Date and time: ")
+print(dateTime)
